@@ -128,7 +128,7 @@ button {
   padding-right: 0;
 }
 
-.first-wrapper {
+.introduction {
   background-image: url(../img/back-1.jpg);
   height: 100vh;
   margin: 0 auto;
@@ -729,5 +729,78 @@ h3 {
 .footer__author_red {
   font-weight: bold;
   color: #ff2b58;
+}
+
+.gallery-list__item {
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+  -webkit-transform: translate3d(0px, 30px, 0);
+          transform: translate3d(0px, 30px, 0);
+  opacity: 0;
+}
+
+.gallery-list__item.active {
+  -webkit-transform: translate3d(0px, 0, 0);
+          transform: translate3d(0px, 0, 0);
+  opacity: 1;
+}
+
+.opacity {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate3d(0px, 30px, 0);
+          transform: translate3d(0px, 30px, 0);
+  opacity: 0;
+}
+
+.opacity.active {
+  -webkit-transform: translate3d(0px, 0, 0);
+          transform: translate3d(0px, 0, 0);
+  opacity: 1;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1999;
+  background-color: white;
+}
+
+.introduction-back {
+  background-color: #fff;
+}
+
+.about-back {
+  background-color: #00b2b2;
+}
+
+.services-back {
+  background-color: #70bfff;
+}
+
+.gallery-back {
+  background-color: #ffe92f;
+}
+
+.subscribe-back {
+  background-color: #fff;
+}
+
+.blog-back {
+  background-color: #b07cf7;
+}
+
+.contact-back {
+  background-color: #fff;
+}
+
+.mainu-menu__item {
+  border-top: 2px solid transparent;
+  padding-top: 5px;
+}
+
+.btn-active {
+  border-top: 2px solid #ff6033;
 }
 /*# sourceMappingURL=style.css.map */
