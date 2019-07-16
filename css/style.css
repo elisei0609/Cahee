@@ -638,7 +638,7 @@ h3 {
 }
 
 .contact-form__item-textarea {
-  height: 15.625rem;
+  padding-bottom: 25%;
   padding-top: 0.9375rem;
   resize: none;
 }

@@ -517,7 +517,7 @@ h3 {
          color: #fff;
          margin-bottom: get-rem(15);
          &-textarea {
-            height: get-rem(250);
+            padding-bottom: 25%;
             padding-top: get-rem(15);
             resize:none;
          }
